@@ -44,6 +44,8 @@ public class Arcanicraft {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.ARCANITE);
+            event.accept(ModItems.RAW_ARCANITE);
+            event.accept(ModItems.ARCANITE_SHARD);
 
         }
     }

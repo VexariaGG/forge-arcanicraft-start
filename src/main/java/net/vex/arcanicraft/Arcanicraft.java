@@ -46,6 +46,7 @@ public class Arcanicraft {
             event.accept(ModItems.ARCANITE);
             event.accept(ModItems.RAW_ARCANITE);
             event.accept(ModItems.ARCANITE_SHARD);
+            event.accept(ModItems.ARCANITE_DUST);
 
         }
     }

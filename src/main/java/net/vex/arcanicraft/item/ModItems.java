@@ -17,6 +17,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ARCANITE_SHARD = ITEMS.register("arcanite_shard",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ARCANITE_DUST = ITEMS.register("arcanite_dust",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
